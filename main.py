@@ -9,7 +9,7 @@ try:
     face_detector = YOLO('yolov8n.pt') 
 
     # notre model 
-    emotion_model = load_model("model_best.keras")
+    emotion_model = load_model("goatv1.keras")
     emotion_labels =  ['Angry','Disgust','Fear','Happy','Sad','Surprise','Neutral']
 except Exception as e:
     print(f"Erreur lors du chargement des modèles : {e}")
